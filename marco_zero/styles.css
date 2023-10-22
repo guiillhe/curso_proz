@@ -65,3 +65,19 @@ header, .navbar{
     text-align: center;
     margin-top: 1rem;
 }
+h2{
+    text-align: center;
+    margin: 1rem;
+}
+#about{
+    flex-wrap: wrap;    
+    justify-content: center;
+    margin: 1rem;
+}
+
+#contact{
+    flex-wrap: wrap;    
+    justify-content: flex-end;
+    margin: 1rem;
+    flex: 1;
+}
