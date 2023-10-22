@@ -4,21 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recife - Marco Zero</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Bem-vindo ao Recife - Marco Zero</h1>
+    <div class="container" id="nav-container">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <h4>Bem-vindo ao Recife - Marco Zero</h4>
+            <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link " href="index.html">Marco Zero</a>
+                    <a class="nav-item nav-link " href="cataratas.html">Cataratas do Iguaçu </a>
+                    <a class="nav-item nav-link " href="paoDeAcucar.html">Pao de Açucar</a>                    
+                </div>
+            </div>
+        </nav>
+    </div>
     </header>
-
-    <nav>
-        <ul>
-            <li><a href="index.html">Marco Zero</a></li>
-            <li><a href="cataratas.html">Cataratas do Iguaçu </a></li>
-            <li><a href="paoDeAcucar.html">Pao de Açucar</a></li>
-        </ul>
-    </nav>
-
+    <div id="conteudo">
     <section id="about">
         <h2>Sobre o Marco Zero</h2>
         <p>O Marco Zero é um dos pontos turísticos mais famosos do Recife, localizado no bairro do Recife Antigo. É conhecido como o centro da cidade e o ponto de partida para medição das distâncias rodoviárias em Pernambuco.</p>
@@ -26,7 +31,7 @@
 
     <section id="images">
         <h2>Imagem</h2>
-        <img src="https://meulugar.quintoandar.com.br/wp-content/uploads/2022/02/Praca-do-Maraco-Zero-Rosa-dos-Ventos-Abre-850x667.jpg" alt="Marco Zero - Recife" title="Marco Zero - Recife">
+        <img class="img-ponto" src="https://meulugar.quintoandar.com.br/wp-content/uploads/2022/02/Praca-do-Maraco-Zero-Rosa-dos-Ventos-Abre-850x667.jpg" alt="Marco Zero - Recife" title="Marco Zero - Recife">
     </section>
 
     <section id="contact">
@@ -38,9 +43,11 @@
             Email: contato@marcozero.com
         </p>
     </section>
+</div>
 
-    <footer>
+    <footer class="footer">
         <p>&copy; 2023 Recife - Marco Zero. Todos os direitos reservados.</p>
     </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

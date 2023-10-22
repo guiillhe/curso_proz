@@ -4,21 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cataratas do Iguaçu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Bem-vindo às Cataratas do Iguaçu</h1>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <h4>Bem-vindo às Cataratas do Iguaçu</h4>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link " href="index.html">Marco Zero</a>
+                        <a class="nav-item nav-link " href="cataratas.html">Cataratas do Iguaçu </a>
+                        <a class="nav-item nav-link " href="paoDeAcucar.html">Pao de Açucar</a>
+                        
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
-
-    <nav>
-        <ul>
-            <li><a href="index.html">Marco Zero</a></li>
-            <li><a href="cataratas.html">Cataratas do Iguaçu </a></li>
-            <li><a href="paoDeAcucar.html">Pao de Açucar</a></li>
-        </ul>
-    </nav>
-
+<div id="conteudo">
     <section id="about">
         <h2>Sobre as Cataratas do Iguaçu</h2>
         <p>As Cataratas do Iguaçu, localizadas na fronteira entre o Brasil e a Argentina, são um dos conjuntos de quedas d'água mais impressionantes do mundo. Elas são conhecidas por sua beleza natural e fauna exuberante.</p>
@@ -26,7 +32,7 @@
 
     <section id="images">
         <h2>Imagens</h2>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Cataratas.jpg/1024px-Cataratas.jpg" alt="Cataratas do Iguaçu" title="Cataratas do Iguaçu">
+        <img class="img-ponto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Cataratas.jpg/1024px-Cataratas.jpg" alt="Cataratas do Iguaçu" title="Cataratas do Iguaçu">
     </section>
 
     <section id="contact">
@@ -39,7 +45,9 @@
         </p>
     </section>
 
-    <footer>
+</div>
+
+<footer class="footer">
         <p>&copy; 2023 Cataratas do Iguaçu. Todos os direitos reservados.</p>
     </footer>
 </body>
