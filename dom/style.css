@@ -1,0 +1,51 @@
+/* Estilização para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilização para o título */
+#titulo {
+    color: #333;
+    text-align: center;
+    background-color: #007BFF;
+    padding: 10px;
+}
+
+/* Estilização para a lista não ordenada */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+ul li {
+    margin: 5px;
+}
+
+/* Estilização para o link âncora */
+a {
+    display: block;
+    text-align: center;
+    color: #007BFF;
+    text-decoration: none;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/* Estilização para a lista ordenada */
+#lista-ordenada {
+    list-style-type: decimal;
+    margin: 20px;
+}
+
+#lista-ordenada li {
+    margin: 5px;
+}
