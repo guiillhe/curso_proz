@@ -1,4 +1,4 @@
-/* Estilização para o corpo da página */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 
-/* Estilização para o título */
+
 #titulo {
     color: #333;
     text-align: center;
@@ -14,18 +14,20 @@ body {
     padding: 10px;
 }
 
-/* Estilização para a lista não ordenada */
+
 ul {
+    display: flex;
     list-style-type: none;
     padding: 0;
     margin: 20px 0;
+    
 }
 
 ul li {
     margin: 5px;
 }
 
-/* Estilização para o link âncora */
+
 a {
     display: block;
     text-align: center;
@@ -40,8 +42,8 @@ a:hover {
     color: #fff;
 }
 
-/* Estilização para a lista ordenada */
-#lista-ordenada {
+
+#lista-ordenada {    
     list-style-type: decimal;
     margin: 20px;
 }
